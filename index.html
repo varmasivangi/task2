@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <script src="https://kit.fontawesome.com/785b2d9787.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+        @media (max-width: 658px) {
+            .main2 {
+                display: none;
+
+            }
+            .HOME {
+                background-color: white;
+            }
+
+        }
+
+
+
+        body {
+            height: 100%;
+            background-color: rgba(245, 245, 245, 0.821);
+        }
+
+        .main2 {
+            height: 100%;
+        }
+
+        .main1 {
+            height: 100%;
+            z-index: 2;
+        }
+
+        .instgramtitleimg {
+            width: 60%;
+            padding: 6%;
+
+        }
+
+        .loginbox {
+            width: 47%;
+            box-shadow: inset;
+            font-size: 0.5 rem;
+            padding-top: 2%;
+            background-color: white;
+
+        }
+
+        .signup {
+            background-color: white;
+            width: 100%;
+            margin-top: 2%;
+            margin-left: 0px;
+            padding-top: 2%;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+            border: 1px solid;
+            border-color: rgb(219, 219, 219);
+
+        }
+        .signup a{
+            text-decoration: none;
+        }
+
+        .mainrow {
+            margin-top: 3.2%;
+            padding-bottom: 3.2%;
+        }
+
+        button {
+            margin: 8px 40px;
+            width: 70%;
+            background-color: #47afff;
+            padding: 1%;
+            border: none;
+            border-radius: 8px;
+            color: white;
+            font-weight: 500;
+        }
+
+        input {
+            width: 70%;
+            background-color: whitesmoke;
+            font-size: 0.8rem;
+            padding: 9px 0px 7px 8px;
+            border: none;
+            color: #8E8E8E;
+            ;
+            border: 1px solid;
+            border-color: rgb(219, 219, 219);
+            border-radius: 3px;
+
+        }
+
+        .facebooklogo {
+            color: #3b5998;
+        }
+
+        .phoneimg {
+            float: right;
+            width: 500px;
+            height: 600px;
+            background-image: url("backgroundpng.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: right;
+        }
+
+        .imglinks {
+            width: 30%;
+        }
+
+        .gettheapp {
+            width: 100%;
+            text-align: center;
+        }
+
+        .gettheapp a {
+            text-decoration: none;
+            color: rgb(26, 26, 26);
+            font-size: 14px;
+        }
+
+        .imagelinks {
+            width: 100%;
+            box-shadow: inset;
+            font-size: 0.5 rem;
+            padding-top: 2%;
+            height: 100px;
+
+        }
+
+
+        .topbox {
+            background-color: white;
+
+            border: 1px solid;
+            border-color: rgb(219, 219, 219);
+
+        }
+
+        .alllinks a {
+            color: #8E8E8E;
+            text-decoration: none;
+            margin: 10px;
+            font-size: 12px;
+        }
+
+        .alllinks a:hover {
+
+            text-decoration: underline;
+        }
+
+        .lastpera {
+            color: #8E8E8E;
+            font-size: 12px;
+        }
+        
+
+
+        #slider {
+            overflow: hidden;
+        }
+
+        @keyframes slider {
+            0% {
+                left: 0;
+            }
+
+            30% {
+                left: 0;
+            }
+
+            33% {
+                left: -100%;
+            }
+
+            63% {
+                left: -100%;
+            }
+
+            66% {
+                left: -200%;
+            }
+
+            95% {
+                left: -200%;
+            }
+
+            100% {
+                left: 0;
+            }
+        }
+
+        #slider figure {
+            float: right;
+            height: 500px;
+            position: relative;
+            animation: 5s slider infinite;
+
+        }
+
+        #slider figure img {
+            width: 245px;
+            height: 520px;
+            float: right;
+        }
+
+        #slider {
+            margin-top: 20px;
+            margin-right: 50px;
+            float: right;
+            width: 245PX;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row mainrow text-center">
+        <div class="col-12 col-md-6 main2">
+
+            <div class="phoneimg">
+
+                <div id="slider">
+                    <figure>
+                        <img class="slide" src="snap.png">
+                        <img class="slide" src="screenshot2-21 - Copy.png">
+                        <img class="slide" src="screenshot4-2x.png">
+                    </figure>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-md-6 main1 justify-content-center">
+            <div class="row HOME">
+                <div class="col-12 col-md-6 completebox p-0">
+                    <div class="topbox">
+                        <div class="row justify-content-center pt-2">
+                            <img class="instgramtitleimg" src="instagramtitle.png" />
+                        </div>
+                        <div class="row ">
+                            <form>
+                                <input type="text" placeholder="phone number,username,email">
+                                <input class="mt-2" type="password" placeholder="password">
+                                <button>Log in</button>
+                            </form>
+                        </div>
+                        <div class="row p-3">
+                            <p class="text-center">OR</p>
+                        </div>
+                        <div class="row">
+                            <p class="facebooklogo"><i class="fa-brands fa-square-facebook m-2"></i>Log in with Face
+                                book</p>
+                        </div>
+                        <div class="row">
+                            <p style="font-size: 12px;">Forget password ?</p>
+                        </div>
+                    </div>
+                    <div class="row signup pt-2">
+                        <p>Dont have an account ?<a href="">Sign up</a></p>
+                    </div>
+                    <div class="gettheapp"><a href="">Get the app</a></div>
+                    <div class="imagelinks">
+                        <a href=""><img class="imglinks"
+                                src="playstore.png" /></a>
+                        <a href=""><img class="imglinks"
+                                src="microsoft.png" /></a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="col-12 alllinks">
+            <p>
+
+                <a href="">
+                    Meta
+                </a>
+                <a href="">
+                    About
+                </a>
+                <a href="">
+                    Blog
+                </a>
+                <a href="">
+                    Jobs
+                </a>
+                <a href="">
+                    Help
+                </a>
+                <a href="">
+                    API
+                </a>
+                <a href="">
+                    Terms
+                </a>
+                <a href="">
+                    Top Accounts
+                </a>
+                <a href="">
+                    Locations
+                </a>
+                <a href="">
+                    Instagram Lite
+                </a>
+                <a href="">
+                    Contact Uploading & Non-Nsers
+                </a>
+              
+            </p>
+            <p class="lastpera">English &#169 @2023 Instagram from Meta</p>
+        </div>
+    </div>
+</body>
+
+</html>
